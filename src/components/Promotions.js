@@ -8,7 +8,7 @@ const featuredProducts = [
   "/images/promo_3.png",
 ]
 
-export default function Slider() {
+export default function Promotions() {
   const [currentIndex, setCurrentIndex] = useState(1);
   const slideRef = useRef();
 
@@ -51,7 +51,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="max-w-screen-xl my-10 mx-20">
+    <div className="max-w-screen-md my-2 mx-40 text-center">
       <div className="w-full relative select-none">
         <div ref={slideRef} className="aspect-w-5 aspect-h-2">
           <img  src={featuredProducts[currentIndex]} alt="" /> 
@@ -70,21 +70,7 @@ export default function Slider() {
               <AiOutlineVerticalLeft size={35} />
           </button>
         </div>
-        
-        
       </div>
     </div>
-
-    // <div class="w-full bg-gray-400 select-none relative"> 
-    //   <div className="bg-blue-100">
-    //     <div className="aspect-w-18 aspect-h-9">
-    //       <img className='max-h-64 w-full object-contain rounded-2xl' src={featuredProducts[0]} alt="" />
-    //     </div>
-    //     <div className='absolute bg-red-400 w-full top-1/2 transform -translate-y-1/2 px-3  flex justify-between items-cetner'>
-    //       <button>Previous</button>
-    //       <button>Next</button>
-    //     </div>
-    //   </div>
-    // </div>  
   )
 }

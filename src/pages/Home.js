@@ -1,8 +1,14 @@
 import React from 'react'
-import Slider from '../components/Slider'
+import Promotions from '../components/Promotions'
+import BestSellers from '../components/BestSellers'
 
 export default function Home() {
     return (
-        <Slider/>
+        <div>
+            <Promotions/>
+            <BestSellers/>
+        </div>
+        
+
     )
 }

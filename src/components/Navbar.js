@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav className=''>
         <div className="px-8 py-2 shadow-bottom mx-auto items-center">
           <div className='flex justify-between '>
-            <div className='flex gap-3 items-center'>
+            <div className='flex gap-2 items-center'>
               <div>
                 <a href='#'>
                   <img src='/images/logo.png' className='max-h-10'/>
