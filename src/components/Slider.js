@@ -3,8 +3,9 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 import '../styles/Carousel.css'
 
 const featuredProducts = [
-  "/images/hero_1.png",
-  "/images/hero_2.jpg"
+  "/images/promo_1.png",
+  "/images/promo_2.jpg",
+  "/images/promo_3.png",
 ]
 
 export default function Slider() {
