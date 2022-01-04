@@ -50,8 +50,8 @@ export default function Promotions() {
 
   return (
     <div className="w-screen my-4 text-center">
-      <h1 className='my-2 text-center text-3xl font-bold'>Promotions</h1>
-      <div className="p-2 mx-auto max-w-screen-lg relative select-none">
+      <h1 className='my-2 text-center text-oriental-dark text-3xl font-bold'>Promotions</h1>
+      <div className="p-2 border border-oriental-dark mx-auto max-w-screen-lg relative select-none">
         <div ref={slideRef} className="aspect-w-5 aspect-h-2">
           <img  src={featuredProducts[currentIndex]} alt="" /> 
         </div>
