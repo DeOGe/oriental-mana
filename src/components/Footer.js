@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className='w-fill bg-oriental'>
         <SocialIcons />
-        <h5 className="text-xs text-center py-4">® Oriental Mana 2022. All Rights Reserved.</h5>
+        <h5 className="text-xs text-white text-center py-4">® Oriental Mana 2022. All Rights Reserved.</h5>
     </div>
   )
 }
