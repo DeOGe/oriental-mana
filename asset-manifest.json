@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oriental-mana/static/css/main.f94a45bb.css",
-    "main.js": "/oriental-mana/static/js/main.430ba423.js",
-    "static/js/787.abf15739.chunk.js": "/oriental-mana/static/js/787.abf15739.chunk.js",
-    "index.html": "/oriental-mana/index.html",
-    "main.f94a45bb.css.map": "/oriental-mana/static/css/main.f94a45bb.css.map",
-    "main.430ba423.js.map": "/oriental-mana/static/js/main.430ba423.js.map",
-    "787.abf15739.chunk.js.map": "/oriental-mana/static/js/787.abf15739.chunk.js.map"
+    "main.css": "/static/css/main.674a6fc1.css",
+    "main.js": "/static/js/main.825d6a7f.js",
+    "static/js/787.abf15739.chunk.js": "/static/js/787.abf15739.chunk.js",
+    "index.html": "/index.html",
+    "main.674a6fc1.css.map": "/static/css/main.674a6fc1.css.map",
+    "main.825d6a7f.js.map": "/static/js/main.825d6a7f.js.map",
+    "787.abf15739.chunk.js.map": "/static/js/787.abf15739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94a45bb.css",
-    "static/js/main.430ba423.js"
+    "static/css/main.674a6fc1.css",
+    "static/js/main.825d6a7f.js"
   ]
 }
