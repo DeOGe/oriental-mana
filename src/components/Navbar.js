@@ -9,7 +9,7 @@ export default function Navbar() {
           <div className='flex gap-2 items-center'>
             <div>
               <a href='#'>
-                <img src='/images/logo.png' className='max-h-14'/>
+                <img src='./images/logo.png' className='max-h-14'/>
               </a>
             </div>
             <div className="hidden md:flex h-full items-center">
@@ -25,8 +25,8 @@ export default function Navbar() {
           {/* Mobile button */}
           <div className="md:hidden flex items-center">
             <button className='mobile-menu-button'>
-              <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
           </div>

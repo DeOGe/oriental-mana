@@ -5,16 +5,11 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    // <div className="App">
-    //   <Navbar/>
-    //   <Home/>
-    //   <Footer />
-    // </div>
-    <div class="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <header className=''>
         <Navbar/>
       </header>
-      <main class="flex-grow">
+      <main className="flex-grow">
         <Home/>
       </main>
       <footer>

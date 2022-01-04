@@ -1,11 +1,9 @@
 import React, { useState, useEffect, useRef }from 'react'
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 import '../styles/Carousel.css'
-
 const featuredProducts = [
-  "/images/promo_1.png",
-  "/images/promo_2.jpg",
-  "/images/promo_3.png",
+  "https://t4.ftcdn.net/jpg/02/62/03/53/360_F_262035364_gGi8uJsPl9uljis8C6oxI0w6AM7MKDLq.jpg",
+  "https://cdn2.vectorstock.com/i/1000x1000/68/91/promotion-banner-design-vector-28116891.jpg"
 ]
 
 export default function Promotions() {
@@ -67,8 +65,8 @@ export default function Promotions() {
           <button 
             className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
             onClick={handleOnPrevClick}
-            >
-              <AiOutlineVerticalLeft size={20} />
+          >
+            <AiOutlineVerticalLeft size={20} />
           </button>
         </div>
       </div>
