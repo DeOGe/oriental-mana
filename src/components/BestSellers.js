@@ -17,8 +17,8 @@ export default function BestSellers() {
       },[]);
 
     return (
-        <div className='mx-40 my-5 '>
-            <h1 className='my-5 text-center'>Best Sellers</h1>
+        <div className='mx-4 my-12'>
+            <h1 className='my-4 text-center text-3xl font-bold'>Best Sellers</h1>
             <ProductList products={bestSellers}/>
         </div>
     )

@@ -51,8 +51,9 @@ export default function Promotions() {
   };
 
   return (
-    <div className="max-w-screen-md my-2 mx-40 text-center">
-      <div className="w-full relative select-none">
+    <div className="w-screen my-4 text-center">
+      <h1 className='my-2 text-center text-3xl font-bold'>Promotions</h1>
+      <div className="p-2 mx-auto max-w-screen-lg relative select-none">
         <div ref={slideRef} className="aspect-w-5 aspect-h-2">
           <img  src={featuredProducts[currentIndex]} alt="" /> 
         </div>
@@ -61,13 +62,13 @@ export default function Promotions() {
             onClick={handleOnPrevClick}
             className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
           >
-            <AiOutlineVerticalRight size={35} />
+            <AiOutlineVerticalRight size={20} />
           </button>
           <button 
             className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
             onClick={handleOnPrevClick}
             >
-              <AiOutlineVerticalLeft size={35} />
+              <AiOutlineVerticalLeft size={20} />
           </button>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import ProductCard from "./ProductCard";
 
 function ProductList({products}) {
-    console.log(products)
     if (products.length < 1) {
         return (
             <div>
@@ -13,7 +12,7 @@ function ProductList({products}) {
     
     return (
         <div className="container mx-auto">
-            <div className="md:grid grid-cols-3">
+            <div className="grid grid-cols-4">
                 {
                     products.map((item) => {
                         // return <pre key={item.id}>{JSON.stringify(item)}</pre>
