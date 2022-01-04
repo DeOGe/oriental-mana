@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "createdAt": "2021-06-22T13:57:41.039Z",
+        "name": "Cheese Mini Soy Roll",
+        "price": "320.00",
+        "image": "./images/cheese_mini_soy_roll.jpg"
+    },
+    {
+        "id": "2",
+        "createdAt": "2021-06-22T13:57:41.039Z",
+        "name": "Melona",
+        "price": "200.00",
+        "image": "./images/melona.jpg"
+    },
+    {
+        "id": "3",
+        "createdAt": "2021-06-22T13:57:41.039Z",
+        "name": "Soybean Slice",
+        "price": "245.00",
+        "image": "./images/soybean_slice.jpg"
+    },
+    {
+        "id": "4",
+        "createdAt": "2021-06-22T13:57:41.039Z",
+        "name": "Vegan Fried Squid Ring",
+        "price": "180.00",
+        "image": "./images/vegan_fried_squid_ring.jpg"
+    }
+]
