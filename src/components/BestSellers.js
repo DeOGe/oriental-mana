@@ -18,7 +18,7 @@ export default function BestSellers() {
 
     return (
         <div className='mx-4 my-12'>
-            <h1 className='my-4 text-center text-3xl font-bold'>Best Sellers</h1>
+            <h1 className='my-4 text-oriental-dark text-center text-3xl font-bold'>Best Sellers</h1>
             <ProductList products={bestSellers}/>
         </div>
     )

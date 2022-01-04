@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className=''>
+    <nav className='bg-oriental'>
       <div className="px-5 py-2 shadow-bottom mx-auto items-center">
         <div className='flex justify-between'>
           {/* Primary Nav */}
@@ -12,10 +12,10 @@ export default function Navbar() {
                 <img src='./images/logo.png' className='max-h-14'/>
               </a>
             </div>
-            <div className="hidden md:flex h-full items-center">
-              <a href='#' className='px-3 text-2xl hover:text-green-500'>Home</a>
-              <a href='#' className='px-3 text-2xl hover:text-green-500'>Product</a>
-              <a href='#' className='px-3 text-2xl hover:text-green-500'>About</a>
+            <div className="hidden md:flex h-full items-center text-white">
+              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>Home</a>
+              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>Product</a>
+              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>About</a>
             </div>
           </div>
           {/* Secondary Nav */}
