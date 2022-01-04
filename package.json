@@ -1,8 +1,8 @@
 {
-  "homepage": "https://deoge.github.io",
+  "homepage": "https://deoge.github.io/oriental-mana",
   "name": "oriental-mana",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
