@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -13,9 +14,9 @@ export default function Navbar() {
               </a>
             </div>
             <div className="hidden md:flex h-full items-center text-white">
-              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>Home</a>
-              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>Product</a>
-              <a href='#' className='px-3 text-2xl hover:text-oriental-light'>About</a>
+              <a href='/' className='px-3 text-2xl hover:text-oriental-dark'>Home</a>
+              <a href='/products' className='px-3 text-2xl hover:text-oriental-dark'>Product</a>
+              <a href='#' className='px-3 text-2xl hover:text-oriental-dark'>About</a>
             </div>
           </div>
           {/* Secondary Nav */}
@@ -31,13 +32,6 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-        
-        {/* mobile menu */}
-        {/* <div className='mt-2 mobile-menu hidden'>
-          <a href='#' className='block p-2 text-sm hover:text-green-400'>Home</a>
-          <a href='#' className='block p-2 text-sm hover:text-green-400'>Product</a>
-          <a href='#' className='block p-2 text-sm hover:text-green-400'>About</a> 
-        </div> */}
       </div>
     </nav>
   )
