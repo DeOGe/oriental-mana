@@ -18,7 +18,7 @@ export default function Products() {
       },[]);
 
     return (
-        <div className='mx-4 my-12'>
+        <div className='mb-4'>
             <h1 className='my-4 text-oriental-dark text-center text-3xl font-bold'>Products</h1>
             <ProductList products={bestSellers}/>
         </div>
