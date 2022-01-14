@@ -3,6 +3,11 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Footer from './components/Footer';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
 
 function App() {
   return (
@@ -10,10 +15,15 @@ function App() {
       <header className=''>
         <Navbar/>
       </header>
-      <main className="flex-grow">
-        {/* <Home/> */}
-        <Products/>
-      </main>
+      <Router>
+        <main className="flex-grow">
+          {/* <Home /> */}
+          <Routes>
+            <Route exact path="/oriental-mana" element={<Home />} />
+            <Route path="/oriental-mana/products" element={<Products/>} />
+          </Routes>
+        </main>
+      </Router>
       <footer>
         <Footer />
       </footer>

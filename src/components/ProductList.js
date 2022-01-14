@@ -5,7 +5,7 @@ function ProductList({products}) {
     if (products.length < 1) {
         return (
             <div>
-                NO DATA
+                {/* NO DATA */}
             </div>
         )
     }
