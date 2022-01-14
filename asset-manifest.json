@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/oriental-mana/static/css/main.5bf8ea49.css",
-    "main.js": "/oriental-mana/static/js/main.164a4b0b.js",
+    "main.js": "/oriental-mana/static/js/main.d72ecfab.js",
     "static/js/787.abf15739.chunk.js": "/oriental-mana/static/js/787.abf15739.chunk.js",
     "index.html": "/oriental-mana/index.html",
     "main.5bf8ea49.css.map": "/oriental-mana/static/css/main.5bf8ea49.css.map",
-    "main.164a4b0b.js.map": "/oriental-mana/static/js/main.164a4b0b.js.map",
+    "main.d72ecfab.js.map": "/oriental-mana/static/js/main.d72ecfab.js.map",
     "787.abf15739.chunk.js.map": "/oriental-mana/static/js/787.abf15739.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bf8ea49.css",
-    "static/js/main.164a4b0b.js"
+    "static/js/main.d72ecfab.js"
   ]
 }
