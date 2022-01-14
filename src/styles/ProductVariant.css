@@ -1,0 +1,4 @@
+.variant-container .active {
+  /* background-color: oriental; */
+  @apply bg-oriental-light;
+}

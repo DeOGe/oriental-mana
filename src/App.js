@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './pages/Home'
-import Footer from './components/Footer'
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Navbar/>
       </header>
       <main className="flex-grow">
-        <Home/>
+        {/* <Home/> */}
+        <Products/>
       </main>
       <footer>
         <Footer />
