@@ -12,15 +12,15 @@ import {
 function App() {
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="flex flex-col min-h-screen">
         <header className=''>
           <Navbar/>
         </header>
           <main className="flex-grow">
             <Routes>
-              <Route path="/oriental-mana/" element={<Home />} />
-              <Route path="/oriental-mana/products" element={<Products />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/products" element={<Products />} />
             </Routes>
             {/* <Routes>
               <Route exact path="/oriental-mana" element={<Home />} />

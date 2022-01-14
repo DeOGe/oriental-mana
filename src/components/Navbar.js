@@ -14,9 +14,9 @@ export default function Navbar() {
               </a>
             </div>
             <div className="hidden md:flex h-full items-center text-white text-2xl">
-              <Link to="/oriental-mana/" className='px-3 hover:text-oriental-dark'>Home</Link>
-              <Link to="/oriental-mana/products" className='px-3 hover:text-oriental-dark'>Products</Link>
-              <Link to="/oriental-mana/about" className='px-3 hover:text-oriental-dark'>About</Link>
+              <Link to="/" className='px-3 hover:text-oriental-dark'>Home</Link>
+              <Link to="/products" className='px-3 hover:text-oriental-dark'>Products</Link>
+              <Link to="/about" className='px-3 hover:text-oriental-dark'>About</Link>
             </div>
           </div>
           {/* Secondary Nav */}
