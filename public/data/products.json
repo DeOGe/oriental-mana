@@ -18,7 +18,7 @@
         "price": 40
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/koka_noodles.png"
   },
   {
     "id": "2",
@@ -35,7 +35,7 @@
         "price": 45
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/soon_ramen.png"
   },
   {
     "id": "3",
@@ -43,7 +43,7 @@
     "name": "Alchan Pad",
     "price": 85,
     "variants": [],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/seaweed_pad.png"
   },
   {
     "id": "4",
@@ -51,7 +51,7 @@
     "name": "Natural Mushroom Seasoning",
     "price": 500,
     "variants": [],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/mushroom_seasoning.png"
   },
   {
     "id": "5",
@@ -59,7 +59,7 @@
     "name": "Totole Granulate Mushroom Bouillon",
     "price": 150,
     "variants": [],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/totole.png"
   },
   {
     "id": "6",
@@ -76,7 +76,7 @@
         "price": 250
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/oyster_sauce.png"
   },
   {
     "id": "7",
@@ -93,7 +93,7 @@
         "price": 140
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/woongjin_aloe.png"
   },
   {
     "id": "8",
@@ -106,7 +106,7 @@
         "price": 95
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/woongjin_grape.png"
   },
   {
     "id": "9",
@@ -135,7 +135,7 @@
         "price": 70
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/soyfresh.png"
   },
   {
     "id": "10",
@@ -152,7 +152,7 @@
         "price": 25
       }
     ],
-    "image": "./images/cheese_mini_soy_roll.jpg"
+    "image": "./images/th_true_yogurt.png"
   }
   
 ]
