@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Koka Noodles",
+    "price": null,
+    "variants": [
+      {
+        "name":"Stir-fry Original",
+        "price": 40
+      },
+      {
+        "name":"Spicy Singapore",
+        "price": 40
+      },
+      {
+        "name":"Spicy Sesame",
+        "price": 40
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "2",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Soon Ramen",
+    "price": null,
+    "variants": [
+      {
+        "name":"Cup",
+        "price": 45
+      },
+      {
+        "name":"Pouch",
+        "price": 45
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "3",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Alchan Pad",
+    "price": 85,
+    "variants": [],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "4",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Natural Mushroom Seasoning",
+    "price": 500,
+    "variants": [],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "5",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Totole Granulate Mushroom Bouillon",
+    "price": 150,
+    "variants": [],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "6",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Mushroom Oyster Sauce",
+    "price": 85,
+    "variants": [
+      {
+        "name": "300mL",
+        "price": 150
+      },
+      {
+        "name": "1L",
+        "price": 250
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "7",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Woongjin Aloe Vera",
+    "price": 85,
+    "variants": [
+      {
+        "name": "500mL",
+        "price": 70
+      },
+      {
+        "name": "1.5L",
+        "price": 140
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "8",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Woongjin Grapes",
+    "price": 85,
+    "variants": [
+      {
+        "name": "500mL",
+        "price": 95
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "9",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "Soyfresh Soya Milk",
+    "price": 85,
+    "variants": [
+      {
+        "name":"Original",
+        "price": 70
+      },
+      {
+        "name":"Chocolate",
+        "price": 70
+      },
+      {
+        "name":"Strawberry",
+        "price": 70
+      },
+      {
+        "name":"Calcium",
+        "price": 70
+      },
+      {
+        "name":"Calcium Low Sugar",
+        "price": 70
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  },
+  {
+    "id": "10",
+    "createdAt": "2021-06-22T13:57:41.039Z",
+    "name": "TH True Yogurt",
+    "price": null,
+    "variants": [
+      {
+        "name":"Blueberry",
+        "price": 25
+      },
+      {
+        "name":"Strawberry",
+        "price": 25
+      }
+    ],
+    "image": "./images/cheese_mini_soy_roll.jpg"
+  }
+  
+]
