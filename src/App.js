@@ -13,10 +13,8 @@ function App() {
   return (
     
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <div className="flex flex-col min-h-screen">
-        <header className=''>
+        <div className="flex flex-col min-h-screen">
           <Navbar/>
-        </header>
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
