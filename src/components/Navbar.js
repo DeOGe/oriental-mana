@@ -13,10 +13,10 @@ export default function Navbar() {
                 <img src='./images/logo.png' className='max-h-14'/>
               </a>
             </div>
-            <div className="hidden md:flex h-full items-center text-white">
-              <a href='/' className='px-3 text-2xl hover:text-oriental-dark'>Home</a>
-              <a href='/products' className='px-3 text-2xl hover:text-oriental-dark'>Product</a>
-              <a href='#' className='px-3 text-2xl hover:text-oriental-dark'>About</a>
+            <div className="hidden md:flex h-full items-center text-white text-2xl">
+              <Link to="/oriental-mana/" className='px-3 hover:text-oriental-dark'>Home</Link>
+              <Link to="/oriental-mana/products" className='px-3 hover:text-oriental-dark'>Products</Link>
+              <Link to="/oriental-mana/about" className='px-3 hover:text-oriental-dark'>About</Link>
             </div>
           </div>
           {/* Secondary Nav */}
@@ -35,4 +35,13 @@ export default function Navbar() {
       </div>
     </nav>
   )
+  // return (
+  //   <div>
+  //     <h1>Home</h1>
+  //     <nav>
+  //       <Link to="/">Home</Link> |{" "}
+  //       <Link to="about">About</Link>
+  //     </nav>
+  //   </div>
+  // );
 }
